@@ -3,7 +3,7 @@ const blocksInFeet = 264
 const locationValue = 42
 function distanceFromHqInBlocks(passengerLocation){
 
-  let distanceValue = locationValue > passengerLocation ?  (locationValue-passengerLocation):(passengerLocation-lovationValue);
+  let distanceValue = locationValue > passengerLocation ?  (locationValue-passengerLocation):(passengerLocation-locationValue);
   return distanceValue;
 }
 function distanceFromHqInFeet(){

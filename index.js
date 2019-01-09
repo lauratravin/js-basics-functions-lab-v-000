@@ -6,8 +6,8 @@ function distanceFromHqInBlocks(passengerLocation){
   let distanceValue = locationValue > passengerLocation ?  (locationValue-passengerLocation):(passengerLocation-locationValue);
   return distanceValue;
 }
-function distanceFromHqInFeet(){
-
+function distanceFromHqInFeet(passengerLocation){
+   return distanceFromHqInBlocks(passengerLocation)*blocksInFeet;
 }
 
 function distanceTravelledInFeet(){

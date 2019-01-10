@@ -18,12 +18,12 @@ function distanceTravelledInFeet(start, destination){
   return distanceValue*blocksInFeet;
 }
 
-function calculatesFarePrice(start, destination){
-    let travelFeet = distanceTravelledInFeet(start, destination) - 100;
-
-  if travelFeet > 2500 {
-   return  'cannot travel that far';
-  } 
-
-
-}
+// function calculatesFarePrice(start, destination){
+//     let travelFeet = distanceTravelledInFeet(start, destination) - 100;
+//
+//   if travelFeet > 2500 {
+//    return  'cannot travel that far';
+//   }
+//
+//
+// }

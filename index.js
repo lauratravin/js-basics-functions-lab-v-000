@@ -24,19 +24,15 @@ function calculatesFarePrice(start, destination){
 
   if (travelFeet > 2500) {
      return  "cannot travel that far";
-  } else if (2000 <  travelFeet &&  travelFeet <= 2500 ){  
+  } else if (2000 <  travelFeet &&  travelFeet <= 2500 ){
     price = 25;
-    
+
   } else if(400 <=  travelFeet &&  travelFeet <= 2000 ){
      price = (travelFeet - 400)* 2;
-  
- } else if(travelFeet < 400 ){
-    price = 0;
-   
-}
+
+   } else if(travelFeet < 400 ){
+       price = 0;
+  }
 return price;
-
-
-
 
 }

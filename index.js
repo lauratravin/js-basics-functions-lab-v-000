@@ -26,10 +26,10 @@ function calculatesFarePrice(start, destination){
      return  "cannot travel that far";
   } else if (2000 <  travelFeet &&  travelFeet <= 2500 ){
     return "no tengo idea";
-  } else (400 <=  travelFeet &&  travelFeet <= 2000 ){
-     price = (travelFeet - 400)* 2;
-    return price;
-  }
+  // } else (400 <=  travelFeet &&  travelFeet <= 2000 ){
+  //    price = (travelFeet - 400)* 2;
+  //   return price;
+  // }
 
 
 

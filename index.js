@@ -28,7 +28,7 @@ function calculatesFarePrice(start, destination){
     price = 25;
 
   } else if(400 <=  travelFeet &&  travelFeet <= 2000 ){
-     price = (travelFeet - 400)* 2;
+     price = (travelFeet - 400)* 0.02;
 
    } else if(travelFeet < 400 ){
        price = 0;

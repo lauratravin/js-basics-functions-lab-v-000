@@ -23,14 +23,7 @@ function calculatesFarePrice(start, destination){
 
   if travelFeet > 2500 {
    return  'cannot travel that far';
-  } else if {
-
-
-
-
-
-  }
-
+  } 
 
 
 }

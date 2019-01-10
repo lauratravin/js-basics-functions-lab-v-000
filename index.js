@@ -14,7 +14,7 @@ function distanceFromHqInFeet(passengerLocation){
 
 function distanceTravelledInFeet(start, destination){
 
-  let distanceValue = start-destination<0 ? start-destination*(-1):start-destination;
+  let distanceValue = start-destination<0 ? start-destination* -1 :start-destination;
   return distanceValue*blocksInFeet;
 }
 

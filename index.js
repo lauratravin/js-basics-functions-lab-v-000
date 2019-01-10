@@ -34,5 +34,4 @@ function calculatesFarePrice(start, destination){
        price = 0;
   }
 return price;
-
 }
